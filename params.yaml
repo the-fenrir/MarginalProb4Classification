@@ -1,0 +1,47 @@
+strategies:
+  greedy_generation:
+    top_p: 0.99
+    max_new_tokens: 50
+    eps: 0.01
+    threshold: 0.2
+
+  probability_uncertainty:
+    top_p: 0.99
+    max_new_tokens: 50
+    eps: 0.01
+    threshold: 0.2
+
+  entropy_uncertainty:
+    top_p: 0.99
+    max_new_tokens: 50
+    eps: 0.01
+    threshold: 0.2
+
+  LogTokU:
+    top_p: 0.99
+    max_new_tokens: 50
+    eps: 0.01
+    threshold: 0.2
+
+  token_probability:
+    top_p: 0.99
+    max_new_tokens: 50
+    eps: 0.01
+    threshold: 0.2
+
+  marginal_probability_at_fixed_place:
+    top_p: 0.99
+    max_new_tokens: 50
+    eps: 0.01
+    threshold: 0.2
+
+  marginal_probability_at_any_place:
+    top_p: 0.99
+    max_new_tokens: 20
+    eps: 0.01
+    threshold: 0.2
+
+models:
+  meta-llama/Llama-3.1-8B-Instruct:
+    top_p: 0.9
+    threshold: 0.3
