@@ -54,7 +54,7 @@ source ~/.bashrc  # or source ~/.zshrc
 ```
 
 
-> 💡 Your token can be obtained from [https://huggingface.co/settings/tokens](https://huggingface.co/settings/tokens)
+> Your token can be obtained from [https://huggingface.co/settings/tokens](https://huggingface.co/settings/tokens)
 
 ### 5. Run Evaluation
 
@@ -74,7 +74,7 @@ This will:
 
 ---
 
-## ⚙️ Parameters
+## Parameters
 
 | Parameter        | Description                                    |
 | ---------------- | ---------------------------------------------- |
@@ -87,7 +87,7 @@ Model-specific overrides (e.g., `top_p`) take precedence over strategy defaults.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -110,7 +110,7 @@ Model-specific overrides (e.g., `top_p`) take precedence over strategy defaults.
 
 ---
 
-## 📊 Output
+## Output
 
 The script outputs a DataFrame of metrics (e.g., accuracy, precision, recall) for each strategy and prints it to console. You can optionally export this to CSV by modifying the script:
 
