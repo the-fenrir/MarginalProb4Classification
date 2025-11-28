@@ -1,8 +1,8 @@
-# 🛡️ Token-Level Marginalization for Multi-Label LLM Classifiers
+# Token-Level Marginalization for Multi-Label LLM Classifiers
 
 This project explores methods for deriving interpretable confidence scores from generative large language models (LLMs) in the context of multi-label content safety classification. Generative models like LLaMA-Guard lack native support for class-level probabilities, which complicates thresholding and confidence-based decision-making. We propose and evaluate three token-level marginalization strategies to estimate class-wise probabilities from decoder outputs. Our findings demonstrate that these approaches improve interpretability, enable more fine-grained moderation control, and generalize well across instruction-tuned LLaMA-family models.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install Dependencies
 
@@ -120,7 +120,7 @@ metrics_df.to_csv("results.csv")
 
 ---
 
-## 🧠 Strategies Implemented
+## Strategies Implemented
 
 * `greedy_generation`
 * `probability_uncertainty`
@@ -134,7 +134,7 @@ Each is evaluated independently with its configured parameters.
 
 ---
 
-## 💡 Notes
+## Notes
 
 * Use `bfloat16` for efficient inference on modern GPUs (e.g., A100, H100).
 * If using a different tokenizer/model, adjust tokenizer loading accordingly.
