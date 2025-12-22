@@ -148,3 +148,18 @@ Each is evaluated independently with its configured parameters.
 * If using a different tokenizer/model, adjust tokenizer loading accordingly.
 
 ---
+
+## Citation
+
+If you use this work, please cite:
+
+```bibtex
+@misc{praharaj2025tokenlevelmarginalizationmultilabelllm,
+  title={Token-Level Marginalization for Multi-Label LLM Classifiers},
+  author={Anjaneya Praharaj and Jaykumar Kasundra},
+  year={2025},
+  eprint={2511.22312},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2511.22312}
+}
