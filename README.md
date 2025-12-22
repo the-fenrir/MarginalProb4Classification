@@ -2,6 +2,14 @@
 
 This project explores methods for deriving interpretable confidence scores from generative large language models (LLMs) in the context of multi-label content safety classification. Generative models like LLaMA-Guard lack native support for class-level probabilities, which complicates thresholding and confidence-based decision-making. We propose and evaluate three token-level marginalization strategies to estimate class-wise probabilities from decoder outputs. Our findings demonstrate that these approaches improve interpretability, enable more fine-grained moderation control, and generalize well across instruction-tuned LLaMA-family models.
 
+## Paper
+
+[![arXiv](https://img.shields.io/badge/arXiv-2511.22312-b31b1b.svg)](https://arxiv.org/abs/2511.22312)
+
+**Token-Level Marginalization for Multi-Label LLM Classifiers**  
+Anjaneya Praharaj, Jaykumar Kasundra  
+arXiv:2511.22312 (2025)
+
 ## Quick Start
 
 ### 1. Install Dependencies
